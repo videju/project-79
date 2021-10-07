@@ -29,9 +29,9 @@ var newItem ="<section class='cards'>"
 for(var j=0; j<menu_list_array.length;j++){
 
 
-    var newItem =newItem +"<div class='card'>";
+    var newItem =newItem +"<div class='card'>"
             +"<img src='pizzaImg.png'/>"
-            +menu_list_array[j] + "<div>"
+            +menu_list_array[j] + "<div>";
 }
 newItem= newItem+"</section>"
 document.getElementById("display_addedmenu").innerHTML = newItem;
@@ -41,4 +41,6 @@ document.getElementById("display_addedmenu").innerHTML = newItem;
 
 
  
+
+
 
